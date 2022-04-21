@@ -5,7 +5,7 @@ require_once "../BusinessLogic/RemoveTodolist.php";
 
 function viewRemoveTodolist() {
 
-    echo "Menghapus TODO" . PHP_EOL;
+    echo "Menghapus TODO (x untuk batal)" . PHP_EOL;
 
     $pilihan = input("Nomor");
 
